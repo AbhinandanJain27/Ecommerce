@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.admin-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  /* width: calc(100vw - 200px); */
+}
+
+.sidebar-content {
+  display: flex;
+  flex: 1;
+}
+
+.header {
+  padding: 0;
+  margin :0;
+  text-decoration: underline;
+  color: white;
+}
+
+app-sidenav {
+  width: 180px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
